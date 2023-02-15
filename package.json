@@ -1,0 +1,31 @@
+{
+  "name": "nodesignin",
+  "version": "1.0.0",
+  "description": "node签到系统",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "start": "pm2 start pm2.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjzno1/nodeSignIn.git"
+  },
+  "author": "zjzno1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zjzno1/nodeSignIn/issues"
+  },
+  "homepage": "https://github.com/zjzno1/nodeSignIn#readme",
+  "dependencies": {
+    "d3-ease": "^1.0.5",
+    "mkdirp": "^0.5.1",
+    "node-schedule": "^2.1.0",
+    "pm2": "4.4.0",
+    "pm2-logrotate": "^2.7.0",
+    "pngjs": "^3.3.3",
+    "puppeteer": "2.1.1",
+    "random-js": "^1.0.8"
+  }
+}
